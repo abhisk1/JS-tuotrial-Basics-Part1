@@ -1,1 +1,6 @@
 related to gfg
+
+# Ignore node_modules
+node_modules/
+# Ignore gfg
+

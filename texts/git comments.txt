@@ -1,0 +1,3 @@
+#git config commit.gpgsign false
+#git commit -m "save git"
+# Ignore .env
