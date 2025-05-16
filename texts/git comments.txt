@@ -1,3 +1,3 @@
 #git config commit.gpgsign false
-#git commit -m "save git"
+#git commit -m "Datatype summary"
 # Ignore .env
