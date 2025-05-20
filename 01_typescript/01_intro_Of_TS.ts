@@ -36,3 +36,4 @@ Used in both frontend and backend development
 let age: boolean = false; // number
 
 console.log(age); // Output: 25
+
