@@ -1,5 +1,6 @@
 /* Types which are available in TS */
 
+
 /*  ** Basic Types in TypeScript **
 TypeScript provides several built-in types that can be used to define the type of a variable. Here are some of the most commonly used basic types:
 
@@ -57,7 +58,10 @@ console.log(sym); // Output: Symbol(id)
 */
 
 
-/* Object types   
+
+
+/*   *** Object types: *** 
+
   TypeScript also allows you to define object types. An object type can be defined using an interface or a type alias. Here are some examples:
   1>. object: For any non-primitive type (not string, number, boolean, etc.)
   2>. {}: 	Anonymous object structure	
@@ -85,7 +89,11 @@ console.log(color); // Output: 0
  */
 
 
-/* Advance type utility types
+
+
+
+
+/*  *** Advance type utility types: ***
 
 1>. union:	Value can be one of many types	
 2>. intersection:	Combines multiple types	
@@ -96,6 +104,9 @@ console.log(color); // Output: 0
 7>. Partial, Pick, Omit, etc.	Utility types for modifying types
 
 */
+
+/* 
+
 let val: string | number = 5;
 console.log(val); // Output: 5
 
@@ -128,3 +139,4 @@ const scores: Record<string, number> = {
   english: 85,
 }
 console.log(scores); // Output: { math: 90, social: 80, english: 85 }
+ */
