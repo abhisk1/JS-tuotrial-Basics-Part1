@@ -1,6 +1,8 @@
 /* 
 TypeScript is a strongly typed, object-oriented, compiled language developed by Microsoft. 
 
+=> Typescript means type safety, which is a feature that helps to prevent type-related errors in code.
+
 => TS = It's a superset of JavaScript, meaning it includes all of JavaScript's functionality and adds additional features  and it adds optional static typing to the language.
  */
 
