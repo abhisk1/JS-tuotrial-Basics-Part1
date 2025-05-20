@@ -21,8 +21,6 @@ Scales better for large projects
 
 // => TypeScript code compiles down to JavaScript, which can then be run in any JavaScript environment, such as browsers or Node.js.
 
-
-
 /*  **Uses of TS**
 => Early Error Detection: Compile-time checks reduce runtime errors, which leads to more reliable applications
 
@@ -35,7 +33,6 @@ Runs in browsers and Node.js
 Used in both frontend and backend development
  */
 
-
-let age: number = 25; // number
+let age: boolean = false; // number
 
 console.log(age); // Output: 25
