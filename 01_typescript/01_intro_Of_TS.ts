@@ -1,7 +1,9 @@
 /* 
 TypeScript is a strongly typed, object-oriented, compiled language developed by Microsoft. 
 
-=> Typescript means type safety, which is a feature that helps to prevent type-related errors in code.
+=>TypeScript is used to catch errors before you run the code. It helps to improve the quality of code and makes it easier to maintain.
+
+
 
 => TS = It's a superset of JavaScript, meaning it includes all of JavaScript's functionality and adds additional features  and it adds optional static typing to the language.
  */
@@ -9,6 +11,7 @@ TypeScript is a strongly typed, object-oriented, compiled language developed by 
 
 
 /* ** why we use or benefits of TS**
+
 => TypeScript allows developers to use modern JavaScript features and provides tools for large-scale application development.
 
 => This helps developers to define the types of variables, function parameters, and return values, enabling early error detection during development and improving code maintainability.

@@ -19,12 +19,14 @@ let userId = 13456.6;
 let isLoggedIn = true;
 console.log(isLoggedIn); // Output: true
 
-//any
+//any is used when we don't know the type of variable. It can be any type. It is not recommended to use any in strict mode. because it defeats the purpose of typescript.
+
+// let hero: any;
 
 let hero: string;
 
 function getHero() {
-  return "Superman";
+  return "superman";
 }
 
 hero = getHero();

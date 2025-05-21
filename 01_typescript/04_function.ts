@@ -35,16 +35,31 @@ const result = signUp("John", "jhon@gmail.com", true);
 const login = loginUser("a", "a@gmail.com");
 // console.log(login); // undefined
 
-
-
-
 // part-2
 
+const getHEllo = (s: string): string => {
+  return s;
+};
+
+const hero = ["thor", "spider man", "iron man"];
+
+hero.map((hero: string): string => {
+  return `hero is ${hero}`;
+  // return 2;
+});
+
+function consoleError(err: string): void {
+  console.log(err);
+}
+consoleError("something went wrong");
 
 
+// never is used when function will never return anything. It runs infinite loop or throw error.
+/* function handleError(err: string): never {
+  throw new Error(err);
+}
 
+console.log(handleError("something went wrong")); // Error: something went wrong
 
-
-
-
-export {};
+ */
+export {};// export is used to avoid error in ts file. It is not used in js file.
