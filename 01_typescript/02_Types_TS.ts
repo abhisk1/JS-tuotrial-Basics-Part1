@@ -5,15 +5,25 @@
 TypeScript provides several built-in types that can be used to define the type of a variable. Here are some of the most commonly used basic types:
 
 1>. number: For all numbers (int, float, etc.)	
+
 2>. string:	Text or characters	
+
 3>. boolean:	true or false	
-4>. null:	Represents null	
+
+4>. null:	Represents null(null is used to explicitly say: “this value is intentionally empty.”)
+
 5>. undefined:	A variable that has not been assigned	
-6>. any: The any type is a special type that disables all type-checking for a variable.(It tells i know what I'm doing). it uses like plain JavaScript.
+
+6>. any: The any type is a special type that disables all type-checking for a variable.(It tells I know what I'm doing). it uses like plain JavaScript.
+
 7>. unknown: similar to  any, but safer (type-check needed or But you can't use that value unless you first check its type.)	
+
 8>. void:	For functions that return nothing	
+
 9>. never:	For functions that never return	value.
+
 10>. bigint:	Large integers beyond Number.MAX_SAFE_INTEGER	
+
 11>. symbol:	Unique and immutable identifiers	
  */
 
@@ -70,6 +80,7 @@ console.log(sym); // Output: Symbol(id)
   5>. Enums:	Named constants	
   */
 
+
 /*   
 let obj: object = { name: "TS" };
 console.log(obj); // Output: { name: 'TS' }
@@ -87,8 +98,6 @@ enum Color {
 let color: Color = Color.Green;
 console.log(color); // Output: 0
  */
-
-
 
 
 
