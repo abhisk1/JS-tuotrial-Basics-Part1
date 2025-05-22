@@ -2,4 +2,5 @@
 #git commit -m "Datatype summary"
 # Ignore .env
 
-**npx ts-node 01_typescript/intro_Of_TS.ts**.
+**npx ts-node 01_typescript/intro_Of_TS.ts*
+*.
