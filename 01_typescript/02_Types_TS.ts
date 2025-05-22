@@ -1,6 +1,5 @@
 /* Types which are available in TS */
 
-
 /*  ** Basic Types in TypeScript **
 TypeScript provides several built-in types that can be used to define the type of a variable. Here are some of the most commonly used basic types:
 
@@ -9,6 +8,8 @@ TypeScript provides several built-in types that can be used to define the type o
 2>. string:	Text or characters	
 
 3>. boolean:	true or false	
+
+// Special types.
 
 4>. null:	Represents null(null is used to explicitly say: “this value is intentionally empty.”)
 
@@ -20,7 +21,7 @@ TypeScript provides several built-in types that can be used to define the type o
 
 8>. void:	For functions that return nothing	
 
-9>. never:	For functions that never return	value.
+9>. never: never return	value.(this is not allow us to return anything.)
 
 10>. bigint:	Large integers beyond Number.MAX_SAFE_INTEGER	
 
@@ -67,9 +68,6 @@ let sym: symbol = Symbol("id"); // Unique and immutable identifiers
 console.log(sym); // Output: Symbol(id)
 */
 
-
-
-
 /*   *** Object types: *** 
 
   TypeScript also allows you to define object types. An object type can be defined using an interface or a type alias. Here are some examples:
@@ -79,7 +77,6 @@ console.log(sym); // Output: Symbol(id)
   4>. Tuples:	Fixed-length array where each element has specific types and positions.	
   5>. Enums:	Named constants	
   */
-
 
 /*   
 let obj: object = { name: "TS" };
@@ -98,9 +95,6 @@ enum Color {
 let color: Color = Color.Green;
 console.log(color); // Output: 0
  */
-
-
-
 
 /*  *** Advance type utility types: ***
 
