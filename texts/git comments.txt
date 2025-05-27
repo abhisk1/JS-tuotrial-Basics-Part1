@@ -4,3 +4,7 @@
 
 **npx ts-node 01_typescript/intro_Of_TS.ts*
 *.
+
+# mkdir src dist(distribution)
+ => src(source) is used to write our code.
+ => dist(distribution) is used on production which being served to  end user 
