@@ -3,7 +3,7 @@
 // this- keyword in class which is usually refers to the instance of class or object.
 
 class Person {
-  name: string;//or
+  name: string; //or
   // readonly name: string;
   age: number;
 
@@ -19,4 +19,15 @@ class Person {
 const user = new Person("Ab", 23);
 user.greet();
 
+class User {
+  email: string;
+  name: string;
+  readonly city: string = "Bengaluru";
+  constructor(email: string, name: string) {
+    this.email = email;
+    this.name = name;
+  }
+}
+const Ab = new User("sk@gmail.com", "sk");
+console.log(Ab)
 export {};
