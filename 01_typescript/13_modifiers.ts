@@ -24,7 +24,8 @@ console.log(Ab);
 
 export {};
 
-/* Access modifiers in TS are: public, private, protected */
+/* Access modifiers are limits the ability to access variables, methods..etc.
+Access modifiers in TS are: public, private, protected */
 // public(default)- allows access to the class members from anywhere
 // private- allows access to the class members only within the class.
 // protected- allows access to the class members within the class and its child classes.
