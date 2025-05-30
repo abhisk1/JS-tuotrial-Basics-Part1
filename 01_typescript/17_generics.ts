@@ -21,30 +21,28 @@ function identityFour<T>(val: T): T {
   return val;
 }
 
-interface Bootle{
-  brand: string,
-  type: number
+interface Bootle {
+  brand: string;
+  type: number;
 }
 
-identityFour<Bootle>({return{
-  brand: 'Nike',
-  type: 1
-}})
-
+identityFour<Bootle>({
+  brand: "Nike",
+  type: 1,
+});
 
 /* more about generics in arrray */
 
-function getSearchProduct<T>(products: T[]): T{
+function getSearchProduct<T>(products: T[]): T {
   //do some DB operations.
   const myIndex = 3;
   return products[3];
 }
 
-// Arrow functions(peoper describing the function in Generics.)
+// OR Arrow functions
 
-const getMoreSearchProducts = <T,>(products: t[]): T =>{
+const getMoreSearchProducts = <T>(products: T[]): T => {
   //do some DB operations.
   const myIndex = 4;
   return products[myIndex];
-}
-
+};
